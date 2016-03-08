@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  JLTweet.m
 //  CleanArchitecture
 //
 //  Created by Joshua Liebowitz on 3/8/16.
 //  Copyright © 2016 Joshua Liebowitz. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "JLTweet.h"
 
-@interface ViewController : UIViewController
-
+@implementation JLTweet
 
 @end
-

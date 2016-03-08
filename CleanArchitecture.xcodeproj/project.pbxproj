@@ -9,12 +9,28 @@
 /* Begin PBXBuildFile section */
 		B31043C61C8F353F001F6E00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B31043C51C8F353F001F6E00 /* main.m */; };
 		B31043C91C8F353F001F6E00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B31043C81C8F353F001F6E00 /* AppDelegate.m */; };
-		B31043CC1C8F353F001F6E00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31043CB1C8F353F001F6E00 /* ViewController.m */; };
-		B31043CF1C8F353F001F6E00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31043CD1C8F353F001F6E00 /* Main.storyboard */; };
 		B31043D11C8F353F001F6E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31043D01C8F353F001F6E00 /* Assets.xcassets */; };
 		B31043D41C8F353F001F6E00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31043D21C8F353F001F6E00 /* LaunchScreen.storyboard */; };
 		B31043DF1C8F353F001F6E00 /* CleanArchitectureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B31043DE1C8F353F001F6E00 /* CleanArchitectureTests.m */; };
 		B31043EA1C8F353F001F6E00 /* CleanArchitectureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B31043E91C8F353F001F6E00 /* CleanArchitectureUITests.m */; };
+		B31044001C8F3661001F6E00 /* JLTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31043FF1C8F3661001F6E00 /* JLTimelineViewController.m */; };
+		B31044011C8F3661001F6E00 /* JLTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31043FF1C8F3661001F6E00 /* JLTimelineViewController.m */; };
+		B31044021C8F3661001F6E00 /* JLTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31043FF1C8F3661001F6E00 /* JLTimelineViewController.m */; };
+		B31044051C8F368C001F6E00 /* JLTimelineService.m in Sources */ = {isa = PBXBuildFile; fileRef = B31044041C8F368C001F6E00 /* JLTimelineService.m */; };
+		B31044061C8F368C001F6E00 /* JLTimelineService.m in Sources */ = {isa = PBXBuildFile; fileRef = B31044041C8F368C001F6E00 /* JLTimelineService.m */; };
+		B31044071C8F368C001F6E00 /* JLTimelineService.m in Sources */ = {isa = PBXBuildFile; fileRef = B31044041C8F368C001F6E00 /* JLTimelineService.m */; };
+		B310440B1C8F36FF001F6E00 /* JLTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = B310440A1C8F36FF001F6E00 /* JLTweet.m */; };
+		B310440C1C8F36FF001F6E00 /* JLTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = B310440A1C8F36FF001F6E00 /* JLTweet.m */; };
+		B310440D1C8F36FF001F6E00 /* JLTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = B310440A1C8F36FF001F6E00 /* JLTweet.m */; };
+		B31044101C8F3776001F6E00 /* JLTimelineAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = B310440F1C8F3776001F6E00 /* JLTimelineAPI.m */; };
+		B31044111C8F3776001F6E00 /* JLTimelineAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = B310440F1C8F3776001F6E00 /* JLTimelineAPI.m */; };
+		B31044121C8F3776001F6E00 /* JLTimelineAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = B310440F1C8F3776001F6E00 /* JLTimelineAPI.m */; };
+		B31044181C8F37AE001F6E00 /* JLTimelineRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B31044171C8F37AE001F6E00 /* JLTimelineRequest.m */; };
+		B31044191C8F37AE001F6E00 /* JLTimelineRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B31044171C8F37AE001F6E00 /* JLTimelineRequest.m */; };
+		B310441A1C8F37AE001F6E00 /* JLTimelineRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B31044171C8F37AE001F6E00 /* JLTimelineRequest.m */; };
+		B310441E1C8F38A2001F6E00 /* JLAuthenticationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B310441D1C8F38A2001F6E00 /* JLAuthenticationInfo.m */; };
+		B310441F1C8F38A2001F6E00 /* JLAuthenticationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B310441D1C8F38A2001F6E00 /* JLAuthenticationInfo.m */; };
+		B31044201C8F38A2001F6E00 /* JLAuthenticationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B310441D1C8F38A2001F6E00 /* JLAuthenticationInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +55,6 @@
 		B31043C51C8F353F001F6E00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B31043C71C8F353F001F6E00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B31043C81C8F353F001F6E00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B31043CA1C8F353F001F6E00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B31043CB1C8F353F001F6E00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B31043CE1C8F353F001F6E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B31043D01C8F353F001F6E00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B31043D31C8F353F001F6E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B31043D51C8F353F001F6E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +64,18 @@
 		B31043E51C8F353F001F6E00 /* CleanArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanArchitectureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31043E91C8F353F001F6E00 /* CleanArchitectureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CleanArchitectureUITests.m; sourceTree = "<group>"; };
 		B31043EB1C8F353F001F6E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B31043FE1C8F3661001F6E00 /* JLTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTimelineViewController.h; sourceTree = "<group>"; };
+		B31043FF1C8F3661001F6E00 /* JLTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTimelineViewController.m; sourceTree = "<group>"; };
+		B31044031C8F368C001F6E00 /* JLTimelineService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTimelineService.h; sourceTree = "<group>"; };
+		B31044041C8F368C001F6E00 /* JLTimelineService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTimelineService.m; sourceTree = "<group>"; };
+		B31044091C8F36FF001F6E00 /* JLTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTweet.h; sourceTree = "<group>"; };
+		B310440A1C8F36FF001F6E00 /* JLTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTweet.m; sourceTree = "<group>"; };
+		B310440E1C8F3776001F6E00 /* JLTimelineAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTimelineAPI.h; sourceTree = "<group>"; };
+		B310440F1C8F3776001F6E00 /* JLTimelineAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTimelineAPI.m; sourceTree = "<group>"; };
+		B31044161C8F37AE001F6E00 /* JLTimelineRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTimelineRequest.h; sourceTree = "<group>"; };
+		B31044171C8F37AE001F6E00 /* JLTimelineRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTimelineRequest.m; sourceTree = "<group>"; };
+		B310441C1C8F38A2001F6E00 /* JLAuthenticationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAuthenticationInfo.h; sourceTree = "<group>"; };
+		B310441D1C8F38A2001F6E00 /* JLAuthenticationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAuthenticationInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +126,10 @@
 		B31043C31C8F353F001F6E00 /* CleanArchitecture */ = {
 			isa = PBXGroup;
 			children = (
-				B31043C71C8F353F001F6E00 /* AppDelegate.h */,
-				B31043C81C8F353F001F6E00 /* AppDelegate.m */,
-				B31043CA1C8F353F001F6E00 /* ViewController.h */,
-				B31043CB1C8F353F001F6E00 /* ViewController.m */,
-				B31043CD1C8F353F001F6E00 /* Main.storyboard */,
+				B31043F71C8F35D5001F6E00 /* API */,
+				B31043F81C8F35D5001F6E00 /* Features */,
+				B31043FD1C8F35D5001F6E00 /* Service */,
 				B31043D01C8F353F001F6E00 /* Assets.xcassets */,
-				B31043D21C8F353F001F6E00 /* LaunchScreen.storyboard */,
-				B31043D51C8F353F001F6E00 /* Info.plist */,
 				B31043C41C8F353F001F6E00 /* Supporting Files */,
 			);
 			path = CleanArchitecture;
@@ -117,6 +138,10 @@
 		B31043C41C8F353F001F6E00 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B31043C71C8F353F001F6E00 /* AppDelegate.h */,
+				B31043C81C8F353F001F6E00 /* AppDelegate.m */,
+				B31043D21C8F353F001F6E00 /* LaunchScreen.storyboard */,
+				B31043D51C8F353F001F6E00 /* Info.plist */,
 				B31043C51C8F353F001F6E00 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +163,71 @@
 				B31043EB1C8F353F001F6E00 /* Info.plist */,
 			);
 			path = CleanArchitectureUITests;
+			sourceTree = "<group>";
+		};
+		B31043F71C8F35D5001F6E00 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B310440E1C8F3776001F6E00 /* JLTimelineAPI.h */,
+				B310440F1C8F3776001F6E00 /* JLTimelineAPI.m */,
+				B31044141C8F379C001F6E00 /* Request */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B31043F81C8F35D5001F6E00 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B31043F91C8F35D5001F6E00 /* Timeline */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B31043F91C8F35D5001F6E00 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				B31043FE1C8F3661001F6E00 /* JLTimelineViewController.h */,
+				B31043FF1C8F3661001F6E00 /* JLTimelineViewController.m */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		B31043FD1C8F35D5001F6E00 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B310441B1C8F3896001F6E00 /* Authentication */,
+				B31044081C8F36EF001F6E00 /* Model */,
+				B31044031C8F368C001F6E00 /* JLTimelineService.h */,
+				B31044041C8F368C001F6E00 /* JLTimelineService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B31044081C8F36EF001F6E00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B31044091C8F36FF001F6E00 /* JLTweet.h */,
+				B310440A1C8F36FF001F6E00 /* JLTweet.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B31044141C8F379C001F6E00 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				B31044161C8F37AE001F6E00 /* JLTimelineRequest.h */,
+				B31044171C8F37AE001F6E00 /* JLTimelineRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		B310441B1C8F3896001F6E00 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				B310441C1C8F38A2001F6E00 /* JLAuthenticationInfo.h */,
+				B310441D1C8F38A2001F6E00 /* JLAuthenticationInfo.m */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +335,6 @@
 			files = (
 				B31043D41C8F353F001F6E00 /* LaunchScreen.storyboard in Resources */,
 				B31043D11C8F353F001F6E00 /* Assets.xcassets in Resources */,
-				B31043CF1C8F353F001F6E00 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +359,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B31043CC1C8F353F001F6E00 /* ViewController.m in Sources */,
+				B31044051C8F368C001F6E00 /* JLTimelineService.m in Sources */,
+				B31044181C8F37AE001F6E00 /* JLTimelineRequest.m in Sources */,
+				B310440B1C8F36FF001F6E00 /* JLTweet.m in Sources */,
+				B310441E1C8F38A2001F6E00 /* JLAuthenticationInfo.m in Sources */,
 				B31043C91C8F353F001F6E00 /* AppDelegate.m in Sources */,
 				B31043C61C8F353F001F6E00 /* main.m in Sources */,
+				B31044001C8F3661001F6E00 /* JLTimelineViewController.m in Sources */,
+				B31044101C8F3776001F6E00 /* JLTimelineAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +374,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B31044061C8F368C001F6E00 /* JLTimelineService.m in Sources */,
 				B31043DF1C8F353F001F6E00 /* CleanArchitectureTests.m in Sources */,
+				B31044191C8F37AE001F6E00 /* JLTimelineRequest.m in Sources */,
+				B31044011C8F3661001F6E00 /* JLTimelineViewController.m in Sources */,
+				B31044111C8F3776001F6E00 /* JLTimelineAPI.m in Sources */,
+				B310441F1C8F38A2001F6E00 /* JLAuthenticationInfo.m in Sources */,
+				B310440C1C8F36FF001F6E00 /* JLTweet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +388,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B31044071C8F368C001F6E00 /* JLTimelineService.m in Sources */,
 				B31043EA1C8F353F001F6E00 /* CleanArchitectureUITests.m in Sources */,
+				B310441A1C8F37AE001F6E00 /* JLTimelineRequest.m in Sources */,
+				B31044021C8F3661001F6E00 /* JLTimelineViewController.m in Sources */,
+				B31044121C8F3776001F6E00 /* JLTimelineAPI.m in Sources */,
+				B31044201C8F38A2001F6E00 /* JLAuthenticationInfo.m in Sources */,
+				B310440D1C8F36FF001F6E00 /* JLTweet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +414,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B31043CD1C8F353F001F6E00 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B31043CE1C8F353F001F6E00 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B31043D21C8F353F001F6E00 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
