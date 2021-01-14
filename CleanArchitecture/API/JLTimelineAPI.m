@@ -33,6 +33,8 @@
     dispatch_async(userInteractiveQueue, ^{
         if (completion) {
             // networking code, json parsing, etc
+            // pretend it takes 2 seconds
+            [NSThread sleepForTimeInterval:2.0f];
             JLTweet *tweet = [[JLTweet alloc] init];
             completion(@[tweet], nil);
         }
